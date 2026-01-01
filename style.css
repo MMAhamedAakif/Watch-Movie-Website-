@@ -65,6 +65,9 @@ header{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+
+
+
 /* carousel */
 .carousel{
     height: 100vh;
@@ -123,7 +126,7 @@ header{
   
   .content h4{
     max-width: 400px;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 25px;
     margin: 40px 0;
   }
