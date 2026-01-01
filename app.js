@@ -45,5 +45,4 @@ function showSlider(type){
 }
 
   clearTimeout(runTimeOut);
-    runTimeOut   thumbnailBorderDom.prepend(thumbnailItemsDom[thumbnailItemsDom.length - 1]);
-        carouselDom.classList.add('prev');
+    
