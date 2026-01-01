@@ -44,5 +44,5 @@ function showSlider(type){
 
 }
 
-  clearTimeout(runTimeOut);
+  
     
