@@ -45,7 +45,4 @@ function showSlider(type){
 }
 
   clearTimeout(runTimeOut);
-    runTimeOut = setTimeout(() => {
-        carouselDom.classList.remove('next');
-        carouselDom.classList.remove('prev');
-    }, timeRunning);
+    runTimeOut 
