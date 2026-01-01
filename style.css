@@ -13,7 +13,7 @@ header{
     padding: 0 50px;
     position: relative;
     z-index: 100;
-    background-color: rgba(113, 113, 113, 0.139);
+    background-color: rgba(120, 120, 120, 0.139);
     backdrop-filter: blur(5px);
   }
   
