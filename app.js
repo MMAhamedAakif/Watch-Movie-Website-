@@ -43,3 +43,9 @@ function showSlider(type){
     }, timeRunning);
 
 }
+
+  clearTimeout(runTimeOut);
+    runTimeOut = setTimeout(() => {
+        carouselDom.classList.remove('next');
+        carouselDom.classList.remove('prev');
+    }, timeRunning);
