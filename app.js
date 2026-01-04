@@ -33,6 +33,9 @@ function showSlider(type){
     }else{
         SliderDom.prepend(SliderItemsDom[SliderItemsDom.length - 1]);
         thumbnailBorderDom.prepend(thumbnailItemsDom[thumbnailItemsDom.length - 1]);
+
+
+        // fdkfjdjfdjk
         carouselDom.classList.add('prev');
 
     }
