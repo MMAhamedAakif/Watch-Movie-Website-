@@ -208,7 +208,7 @@ header{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 55px;
     mix-blend-mode: lighten;
 }
 .thumbnail .item .thum-content{
