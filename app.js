@@ -40,6 +40,7 @@ function showSlider(type){
 
     }
     clearTimeout(runTimeOut);
+    // change to next one movie
     runTimeOut = setTimeout(() => {
         carouselDom.classList.remove('next');
         carouselDom.classList.remove('prev');
