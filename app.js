@@ -33,10 +33,14 @@ function showSlider(type){
     }else{
         SliderDom.prepend(SliderItemsDom[SliderItemsDom.length - 1]);
         thumbnailBorderDom.prepend(thumbnailItemsDom[thumbnailItemsDom.length - 1]);
+
+
+        // carouse changes 
         carouselDom.classList.add('prev');
 
     }
     clearTimeout(runTimeOut);
+    // change to next one movie
     runTimeOut = setTimeout(() => {
         carouselDom.classList.remove('next');
         carouselDom.classList.remove('prev');
@@ -44,5 +48,5 @@ function showSlider(type){
 
 }
 
-  
+
     
